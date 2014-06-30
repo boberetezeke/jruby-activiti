@@ -1,0 +1,17 @@
+org.activiti:activiti-engine:jar:5.15.1
+org.activiti:activiti-bpmn-converter:jar:5.15.1
+org.activiti:activiti-bpmn-model:jar:5.15.1
+org.codehaus.jackson:jackson-core-asl:jar:1.9.9
+org.activiti:activiti-process-validation:jar:5.15.1
+org.apache.commons:commons-email:jar:1.2
+javax.mail:mail:jar:1.4.1
+javax.activation:activation:jar:1.1
+org.apache.commons:commons-lang3:jar:3.1
+org.mybatis:mybatis:jar:3.2.5
+org.springframework:spring-beans:jar:3.2.7.RELEASE
+org.springframework:spring-core:jar:3.2.7.RELEASE
+commons-logging:commons-logging:jar:1.1.1
+joda-time:joda-time:jar:2.1
+org.slf4j:slf4j-api:jar:1.7.6
+org.slf4j:jcl-over-slf4j:jar:1.7.6
+com.h2database:h2:jar:1.4.179
