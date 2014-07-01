@@ -14,6 +14,10 @@ public class RubySequenceEventListener extends RubyObject implements ExecutionLi
     private final IRubyObject world;
 
     static {
+        String source = new StringBuilder("class RubySequenceEventListener\n" +
+            "end\n" +
+            "").toString();
+        __ruby__.executeScript(source, "ruby_event_listener.rb");
         RubyClass metaclass = __ruby__.getClass("RubySequenceEventListener");
         if (metaclass == null) throw new NoClassDefFoundError("Could not load Ruby class: RubySequenceEventListener");
         metaclass.setRubyStaticAllocator(RubySequenceEventListener.class);
