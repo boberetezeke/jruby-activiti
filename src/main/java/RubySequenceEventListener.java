@@ -14,7 +14,8 @@ public class RubySequenceEventListener extends RubyObject implements ExecutionLi
     private final IRubyObject world;
 
     static {
-	if (metaclass == null) throw new NoClassDefFoundError("Could not load Ruby class: RubySequenceEventListener");
+        RubyClass metaclass = __ruby__.getClass("RubySequenceEventListener");
+        if (metaclass == null) throw new NoClassDefFoundError("Could not load Ruby class: RubySequenceEventListener");
         metaclass.setRubyStaticAllocator(RubySequenceEventListener.class);
         __metaclass__ = metaclass;
     }
